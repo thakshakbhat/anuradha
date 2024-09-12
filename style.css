@@ -163,6 +163,10 @@ body {
   padding: 30px;
   transform: translateX(150%);
   animation: about-img-animation 1s ease-in-out forwards;
+  height: 200px;
+  width: 100px;
+  align-content: center;
+  margin-top: 50px;
 }
 
 @keyframes about-img-animation {
@@ -219,6 +223,20 @@ body {
   width: 100%;
   margin: auto;
   max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.food-container1 {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.food-container1 img {
+  display: block;
+  width: 95%;
+  margin: auto;
+  max-height: 200px;
   object-fit: cover;
   object-position: center;
 }
