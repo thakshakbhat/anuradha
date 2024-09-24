@@ -229,14 +229,14 @@ body {
 .food-container1 {
   display: flex;
   justify-content: space-between;
-  height: fit-content;
+  
 }
 
 .food-container1 img {
   display: block;
-  width: 95%;
+  width: 100%;
   margin: auto;
-  max-height: 200px;
+  max-height: 300px;
   object-fit: cover;
   object-position: center;
 }
@@ -574,7 +574,7 @@ body {
 
   /* ......./ food /......... */
 
-  .food-container {
+  .food-container1 {
     flex-direction: column;
     align-items: stretch;
   }
